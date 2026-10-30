@@ -1,10 +1,10 @@
 #!/bin/sh
 # Installs the latest Throughline release on macOS:
-#   curl -fsSL https://raw.githubusercontent.com/AhmedNavaz/throughline/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/closedbrackets/throughline/main/install.sh | sh
 # THROUGHLINE_VERSION=0.4.0 installs a specific version. THROUGHLINE_INSTALL_DIR changes the folder (default /Applications).
 set -eu
 
-repo="AhmedNavaz/throughline"
+repo="closedbrackets/throughline"
 
 fail() { printf 'throughline: %s\n' "$1" >&2; exit 1; }
 

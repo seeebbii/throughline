@@ -1,5 +1,5 @@
 FROM node:22-alpine
-LABEL org.opencontainers.image.source="https://github.com/AhmedNavaz/throughline" \
+LABEL org.opencontainers.image.source="https://github.com/closedbrackets/throughline" \
       org.opencontainers.image.description="Throughline private-link service for Ask a Friend" \
       org.opencontainers.image.licenses="MIT"
 WORKDIR /app

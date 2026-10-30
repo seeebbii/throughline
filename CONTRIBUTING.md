@@ -4,7 +4,7 @@ Thanks for helping. Bug reports, fixes and focused improvements are all welcome.
 
 ## Where to start
 
-- Check the [roadmap](ROADMAP.md) for planned work, and issues labelled [good first issue](https://github.com/AhmedNavaz/throughline/labels/good%20first%20issue) or [help wanted](https://github.com/AhmedNavaz/throughline/labels/help%20wanted).
+- Check the [roadmap](ROADMAP.md) for planned work, and issues labelled [good first issue](https://github.com/closedbrackets/throughline/labels/good%20first%20issue) or [help wanted](https://github.com/closedbrackets/throughline/labels/help%20wanted).
 - For anything bigger than a bug fix, open an issue first so we can agree on the approach before you write code.
 - The [guide](docs/guide.md) describes how each feature behaves, which is useful context before changing it.
 
@@ -57,7 +57,7 @@ npm run test:desktop
 
 ## Reporting bugs
 
-Use the [bug report](https://github.com/AhmedNavaz/throughline/issues/new?template=bug_report.yml) form, or [design feedback](https://github.com/AhmedNavaz/throughline/issues/new?template=ux_feedback.yml) for anything confusing or rough in the interface. Include your Throughline and macOS versions, the agent you used and the steps to reproduce. Please remove anything private from logs and screenshots. For security problems, follow [SECURITY.md](SECURITY.md) instead of opening a public issue.
+Use the [bug report](https://github.com/closedbrackets/throughline/issues/new?template=bug_report.yml) form, or [design feedback](https://github.com/closedbrackets/throughline/issues/new?template=ux_feedback.yml) for anything confusing or rough in the interface. Include your Throughline and macOS versions, the agent you used and the steps to reproduce. Please remove anything private from logs and screenshots. For security problems, follow [SECURITY.md](SECURITY.md) instead of opening a public issue.
 
 ## Releasing
 

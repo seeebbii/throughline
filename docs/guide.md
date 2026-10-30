@@ -117,7 +117,7 @@ For a same-computer test:
 npm run sharing
 ```
 
-Set the GUI service URL to `http://127.0.0.1:4319`. These are local test links; another computer cannot open them. Remote links require a separately deployed HTTPS service with persistent private storage. Each release publishes a container image, `ghcr.io/ahmednavaz/throughline-sharing`. Deployment, Docker, limits, capabilities and proxy configuration are in [sharing/README.md](../sharing/README.md). `AI_RELAY_SHARING_URL` can configure the client, and `AI_RELAY_SHARING_CREATE_KEY` can provide the service's optional creation key.
+Set the GUI service URL to `http://127.0.0.1:4319`. These are local test links; another computer cannot open them. Remote links require a separately deployed HTTPS service with persistent private storage. Each release publishes a container image, `ghcr.io/closedbrackets/throughline-sharing`. Deployment, Docker, limits, capabilities and proxy configuration are in [sharing/README.md](../sharing/README.md). `AI_RELAY_SHARING_URL` can configure the client, and `AI_RELAY_SHARING_CREATE_KEY` can provide the service's optional creation key.
 
 The sharing service stores only approved packages and solutions. It has no execution endpoints, provider credentials, repository mounts or account integration. Do not expose or tunnel the local coding server. Production hosting has **not** been deployed or verified by this implementation.
 

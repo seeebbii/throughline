@@ -4,7 +4,7 @@
 
 <p align="center">Your workspace for AI coding agents.<br>Keep project context across Claude Code and Codex, using your own accounts.</p>
 
-<p align="center"><a href="https://github.com/AhmedNavaz/throughline/actions/workflows/ci.yml"><img src="https://github.com/AhmedNavaz/throughline/actions/workflows/ci.yml/badge.svg" alt="CI"></a> <a href="https://github.com/AhmedNavaz/throughline/releases/latest"><img src="https://img.shields.io/github/v/release/AhmedNavaz/throughline" alt="Latest release"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a> <a href="https://www.patreon.com/17048317/join"><img src="https://img.shields.io/badge/Support-Patreon-FF424D?logo=patreon&amp;logoColor=white" alt="Support Throughline on Patreon"></a></p>
+<p align="center"><a href="https://github.com/closedbrackets/throughline/actions/workflows/ci.yml"><img src="https://github.com/closedbrackets/throughline/actions/workflows/ci.yml/badge.svg" alt="CI"></a> <a href="https://github.com/closedbrackets/throughline/releases/latest"><img src="https://img.shields.io/github/v/release/closedbrackets/throughline" alt="Latest release"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a> <a href="https://www.patreon.com/17048317/join"><img src="https://img.shields.io/badge/Support-Patreon-FF424D?logo=patreon&amp;logoColor=white" alt="Support Throughline on Patreon"></a></p>
 
 <p align="center"><img src="docs/screenshot.png" alt="Throughline: a project conversation shared by Claude and Codex, with the file browser, Git activity and plan usage" width="900"></p>
 
@@ -43,7 +43,7 @@ Each project brings together one or more folders and one continuous conversation
 ## Install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/AhmedNavaz/throughline/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/closedbrackets/throughline/main/install.sh | sh
 ```
 
 This installs the latest release for your Mac (Apple Silicon or Intel) after checking its published checksum. You also need [Claude Code](https://code.claude.com/docs/en/overview) and/or the [Codex CLI](https://github.com/openai/codex) installed and signed in.
@@ -51,12 +51,12 @@ This installs the latest release for your Mac (Apple Silicon or Intel) after che
 <details>
 <summary>Other ways to install</summary>
 
-**Download the app.** Get the zip for your Mac from [Releases](https://github.com/AhmedNavaz/throughline/releases/latest) and move **Throughline** to Applications. The app is not notarized by Apple yet, so the first time you open a browser download macOS says it cannot verify the developer: open **System Settings › Privacy & Security** and click **Open Anyway**. If macOS says the app is damaged, run `xattr -cr /Applications/Throughline.app`.
+**Download the app.** Get the zip for your Mac from [Releases](https://github.com/closedbrackets/throughline/releases/latest) and move **Throughline** to Applications. The app is not notarized by Apple yet, so the first time you open a browser download macOS says it cannot verify the developer: open **System Settings › Privacy & Security** and click **Open Anyway**. If macOS says the app is damaged, run `xattr -cr /Applications/Throughline.app`.
 
 **Run from source** with Node.js 22.12 or later:
 
 ```sh
-git clone https://github.com/AhmedNavaz/throughline.git
+git clone https://github.com/closedbrackets/throughline.git
 cd throughline
 npm ci
 npm start
@@ -82,8 +82,10 @@ If Throughline helps your work, you can [support its development on Patreon](htt
 
 ## Contributing
 
-The most helpful thing you can do right now is use Throughline and tell us what you find: [report a bug](https://github.com/AhmedNavaz/throughline/issues/new?template=bug_report.yml) or [share design feedback](https://github.com/AhmedNavaz/throughline/issues/new?template=ux_feedback.yml). Code contributions are welcome too; [CONTRIBUTING.md](CONTRIBUTING.md) explains the setup, maps the codebase and lists where to start. Please report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
+The most helpful thing you can do right now is use Throughline and tell us what you find: [report a bug](https://github.com/closedbrackets/throughline/issues/new?template=bug_report.yml) or [share design feedback](https://github.com/closedbrackets/throughline/issues/new?template=ux_feedback.yml). Code contributions are welcome too; [CONTRIBUTING.md](CONTRIBUTING.md) explains the setup, maps the codebase and lists where to start. Please report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
 
 ## License
+
+Made by [Ahmed Nawaz](https://github.com/AhmedNavaz) at [ClosedBrackets](https://closedbrackets.io).
 
 [MIT](LICENSE). Throughline is an independent project, not affiliated with or endorsed by Anthropic or OpenAI. Claude, Claude Code, Codex and related names are trademarks of their respective owners.

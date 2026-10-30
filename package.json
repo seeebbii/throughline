@@ -10,13 +10,13 @@
     "desktop",
     "electron"
   ],
-  "homepage": "https://github.com/AhmedNavaz/throughline#readme",
+  "homepage": "https://github.com/closedbrackets/throughline#readme",
   "bugs": {
-    "url": "https://github.com/AhmedNavaz/throughline/issues"
+    "url": "https://github.com/closedbrackets/throughline/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AhmedNavaz/throughline.git"
+    "url": "git+https://github.com/closedbrackets/throughline.git"
   },
   "license": "MIT",
   "author": "Ahmed Nawaz",

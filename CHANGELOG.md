@@ -46,6 +46,6 @@ First public release.
 - Dark and light themes, keyboard shortcuts and a short setup guide.
 - macOS builds for Apple Silicon and Intel, and a container image for the private-link service.
 
-[0.6.0]: https://github.com/AhmedNavaz/throughline/releases/tag/v0.6.0
-[0.5.0]: https://github.com/AhmedNavaz/throughline/releases/tag/v0.5.0
-[0.4.0]: https://github.com/AhmedNavaz/throughline/releases/tag/v0.4.0
+[0.6.0]: https://github.com/closedbrackets/throughline/releases/tag/v0.6.0
+[0.5.0]: https://github.com/closedbrackets/throughline/releases/tag/v0.5.0
+[0.4.0]: https://github.com/closedbrackets/throughline/releases/tag/v0.4.0
